@@ -79,7 +79,7 @@ const DownloadBadge = ({ Imgdata, setImgdata, setProgress, Username, setUsername
                                     // document.body.appendChild(canvas);
                                     const downloadLink = document.createElement('a');
                                     downloadLink.href = canvas.toDataURL('image/jpg');
-                                    downloadLink.download = `GdscUvpceCommunity.png`;
+                                    downloadLink.download = `GdscDBITCommunity.png`;
                                     downloadLink.click();
                                     setDownload(false);
                                 }).catch((err) => {

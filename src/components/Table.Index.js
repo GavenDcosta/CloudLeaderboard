@@ -8,10 +8,18 @@ function TableIndex() {
   // JSON file gone print here 
   const imported_data = JSON.stringify(dataArr);
   const data = JSON.parse(imported_data);
+
+  // Sort the array based on the sum of courses completed and badges completed
+  data.sort(function(a, b) {
+    const sumA = a["# of Courses Completed"] + a["# of Skill Badges Completed"] + a["# of GenAI Game Completed"];
+    const sumB = b["# of Courses Completed"] + b["# of Skill Badges Completed"] + b["# of GenAI Game Completed"];
+    return sumB - sumA;
+  });
+
   const [Participationdata, setParticipationdata] = useState([...data]);
   const [EligibleforSwags, setEligibleforSwags] = useState(0);
 
-
+console.log(data)
 
   const calculateTotalEligibility = () => {
     let total = 0;

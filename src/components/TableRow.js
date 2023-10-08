@@ -24,14 +24,14 @@ function TableRow({ participant }) {
             <td className="Institution mob:hidden relative p-3">
                 <div
                     className={`m-auto w-fit rounded-3xl px-2 py-1 text-center ${participant["Institution"] ==
-                        "U. V. Patel College of Engineering - Mehsana"
+                        "Don Bosco Institute of Technology - Mumbai"
                         ? "bg-green-200 text-green-600"
                         : "bg-yellow-200 text-yellow-600"
                         }`}
                 >
                     {participant["Institution"] ==
-                        "U. V. Patel College of Engineering - Mehsana"
-                        ? "UVPCE"
+                        "Don Bosco Institute of Technology - Mumbai"
+                        ? "DBIT"
                         : "Other"}
                 </div>
             </td>
@@ -50,11 +50,17 @@ function TableRow({ participant }) {
                 </div>
             </td>
 
-            <td className="no_Courses_Completed mob:hidden p-3 text-center">
+            <td className={`no_Courses_Completed mob:hidden p-3 text-center ${participant["# of Courses Completed"] == 4 
+                ? "bg-green-200 text-green-600"
+                : "bg-yellow-200 text-yellow-600"
+            }`}>
                 {participant["# of Courses Completed"]}
             </td>
 
-            <td className="no_Skill_Badges_Completed mob:hidden p-3 text-center">
+            <td className={`no_Skill_Badges_Completed mob:hidden p-3 text-center" ${participant["# of Skill Badges Completed"] == 4 
+                ? "bg-green-200 text-green-600"
+                : "bg-yellow-200 text-yellow-600"
+            }`}>
                 {participant["# of Skill Badges Completed"]}
             </td>
 

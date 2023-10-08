@@ -10,6 +10,13 @@
     body{
         width: 100%;
     }
+    .footer{
+        bottom: 0;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
 }
 
 .uploadSec {

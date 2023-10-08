@@ -48,7 +48,7 @@ console.log(data)
 
 
   return (
-    <div className='w-full relative px-3'>
+    <div className='w-full relative px-3 mb-[100px]'>
 
       <div className="sec m-auto my-10 space-y-8 w-1/2 mob:w-full flex flex-col">
 

@@ -94,7 +94,7 @@ export default function Home() {
 
       <TableIndex />
 
-      <div className="w-full p-2 text-center sticky mt-[20px] bottom-0 bg-gray-900 text-gray-300">Devloped By <a href="" className="text-orange-400">Gaven Dcosta, Sahil Singh, CodingArpan, Fenil Modi </a> </div>
+      <div className="w-full p-2 text-center sticky mt-[20px] bottom-0 bg-gray-900 text-gray-300 footer">Devloped By <a href="" className="text-orange-400">Gaven Dcosta, Sahil Singh, CodingArpan, Fenil Modi </a> </div>
     </>
   )
 }

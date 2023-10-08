@@ -21,9 +21,9 @@ const DownloadBadge = ({ Imgdata, setImgdata, setProgress, Username, setUsername
         <div className='relative w-full'>
             {Download && <div className="absolute z-30 w-full h-screen bg-gray-700 text-center pt-20 text-white text-3xl"> Downloading ...</div>}
 
-            <div className="photo w-fit relative m-auto mt-[3.25em] p-[25px]">
+            <div className="photo w-fit relative m-auto mt-[3.25em] p-[35px]">
                 <div className="relative">
-                    {!Adjustment && <p className={`absolute text-l tracking-tight bottom-9 mt-15 text-center z-20 w-full  text-[#000]`}>{Username}</p>}
+                    {!Adjustment && <p className={`absolute text-l tracking-tight bottom-11 mt-15 text-center z-20 w-full  text-[#000]`}>{Username}</p>}
                     <div style={{borderImage:"url('/assets/Community_Member.png')"}} className=" w-fit max-w-[300px] h-[300px] overflow-scroll">
                         <img src={Imgdata} alt="your Image" className='w-max h-max' />
                     </div>
@@ -75,6 +75,7 @@ const DownloadBadge = ({ Imgdata, setImgdata, setProgress, Username, setUsername
                             setDownload(true);
                             setTimeout(() => {
                                 const cvs = document.querySelector('.photo');
+                                cvs.classList.add("bg-slate-700")
 
                                 html2canvas(cvs).then(function (canvas) {
                                     // document.body.appendChild(canvas);
@@ -82,6 +83,7 @@ const DownloadBadge = ({ Imgdata, setImgdata, setProgress, Username, setUsername
                                     downloadLink.href = canvas.toDataURL('image/jpg');
                                     downloadLink.download = `GdscDBITCommunity.png`;
                                     downloadLink.click();
+                                    cvs.classList.remove("bg-slate-700")
                                     setDownload(false);
                                 }).catch((err) => {
                                     console.log(err)

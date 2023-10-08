@@ -45,7 +45,7 @@ function Profilebadge() {
 
 
             <div className="fixed bottom-0  text-white text-center w-full">
-                <div className=" bg-blue-500 text-white text-center w-full">Devloped By Arpan Das</div>
+                <div className=" bg-blue-500 text-white text-center w-full">Devloped By Arpan Das, Gaven Dcosta, Sahil Singh</div>
             </div>
         </div>
     )

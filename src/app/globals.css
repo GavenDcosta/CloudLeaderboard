@@ -8,7 +8,7 @@
 
 @media (max-width:800px){
     body{
-        width: fit-content;
+        width: 100%;
     }
 }
 

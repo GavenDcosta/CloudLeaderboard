@@ -21,15 +21,16 @@ const DownloadBadge = ({ Imgdata, setImgdata, setProgress, Username, setUsername
         <div className='relative w-full'>
             {Download && <div className="absolute z-30 w-full h-screen bg-gray-700 text-center pt-20 text-white text-3xl"> Downloading ...</div>}
 
-            <div className="photo w-fit relative m-auto mt-5">
+            <div className="photo w-fit relative m-auto mt-[3.25em] p-[25px]">
                 <div className="relative">
-                    {!Adjustment && <p className={`absolute ${roboto.className} text-2xl tracking-tight bottom-16 pl-5 z-20 w-full text-left text-[#4283F3]`}>{Username}</p>}
-                    <div className=" w-fit max-w-[300px] h-[300px] overflow-scroll">
+                    {!Adjustment && <p className={`absolute text-l tracking-tight bottom-9 mt-15 text-center z-20 w-full  text-[#000]`}>{Username}</p>}
+                    <div style={{borderImage:"url('/assets/Community_Member.png')"}} className=" w-fit max-w-[300px] h-[300px] overflow-scroll">
                         <img src={Imgdata} alt="your Image" className='w-max h-max' />
                     </div>
                     {!Adjustment && <img
                         className='absolute top-0'
-                        src="/assets/template.png"
+                        style={{scale:"1.2", top:"-72px", left:"-1px"}}
+                        src="/assets/Community_Member.png"
                         width={300}
                         height={300}
                         alt="template"

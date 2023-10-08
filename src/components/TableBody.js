@@ -8,7 +8,7 @@ function TableBody({ Participationdata,
 
 
     return (
-        <tbody className='text-xs mb-[20px]'>
+        <tbody className='text-xs mb-[20px] overflow-x-scroll'>
             {Participationdata.length > 0 ? Participationdata.map((participant, index) => {
 
                 return <TableRow key={participant["Student Email"] || 1} participant={participant} />

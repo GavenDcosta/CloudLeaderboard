@@ -21,7 +21,7 @@ function TableRow({ participant }) {
                 </div>
             </td>
 
-            <td className="Institution mob:hidden relative p-3">
+            <td className="Institution  relative p-3">
                 <div
                     className={`m-auto w-fit rounded-3xl px-2 py-1 text-center ${participant["Institution"] ==
                         "Don Bosco Institute of Technology - Mumbai"
@@ -50,21 +50,21 @@ function TableRow({ participant }) {
                 </div>
             </td>
 
-            <td className={`no_Courses_Completed mob:hidden p-3 text-center ${participant["# of Courses Completed"] == 4 
+            <td className={`no_Courses_Completed  p-3 text-center ${participant["# of Courses Completed"] == 4 
                 ? "bg-green-200 text-green-600"
                 : "bg-yellow-200 text-yellow-600"
             }`}>
                 {participant["# of Courses Completed"]}
             </td>
 
-            <td className={`no_Skill_Badges_Completed mob:hidden p-3 text-center" ${participant["# of Skill Badges Completed"] == 4 
+            <td className={`no_Skill_Badges_Completed  p-3 text-center" ${participant["# of Skill Badges Completed"] == 4 
                 ? "bg-green-200 text-green-600"
                 : "bg-yellow-200 text-yellow-600"
             }`}>
                 {participant["# of Skill Badges Completed"]}
             </td>
 
-            <td className="GenAI_Game_Completed mob:hidden p-3 text-center">
+            <td className="GenAI_Game_Completed  p-3 text-center">
                 {participant["# of GenAI Game Completed"]}
             </td>
 

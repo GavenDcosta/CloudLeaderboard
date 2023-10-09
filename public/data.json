@@ -26,19 +26,6 @@
     "Redemption Status": "Yes"
   },
   {
-    "Student Name": "Aarol D'Souza",
-    "Student Email": "aaroldsouza19@gmail.com",
-    "Institution": "Don Bosco Institute of Technology - Mumbai",
-    "Enrolment Date & Time": "Sun Sep 24 2023 21:12:19 GMT+0530 (GMT+05:30)",
-    "Enrolment Status": "All Good",
-    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/28674758-2825-4a1a-b604-2331adb761ad",
-    "# of Courses Completed": 1,
-    "# of Skill Badges Completed": 0,
-    "# of GenAI Game Completed": 0,
-    "Total Completions of both Pathways": "No",
-    "Redemption Status": "Yes"
-  },
-  {
     "Student Name": "Yashas Khot",
     "Student Email": "yashaskhot9@gmail.com",
     "Institution": "Don Bosco Institute of Technology - Mumbai",
@@ -47,6 +34,32 @@
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/b851fbb5-6b15-45a0-828d-a358867d36ae",
     "# of Courses Completed": 4,
     "# of Skill Badges Completed": 4,
+    "# of GenAI Game Completed": 0,
+    "Total Completions of both Pathways": "No",
+    "Redemption Status": "Yes"
+  },
+  {
+    "Student Name": "Alston Fernandes",
+    "Student Email": "0508alstonfernandes@gmail.com",
+    "Institution": "Don Bosco Institute of Technology - Mumbai",
+    "Enrolment Date & Time": "Tue Sep 26 2023 19:48:05 GMT+0530 (GMT+05:30)",
+    "Enrolment Status": "All Good",
+    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/f4fb7ad6-0b2c-4328-bd32-b3f6853aaf3c",
+    "# of Courses Completed": 4,
+    "# of Skill Badges Completed": 4,
+    "# of GenAI Game Completed": 0,
+    "Total Completions of both Pathways": "No",
+    "Redemption Status": "Yes"
+  },
+  {
+    "Student Name": "Aarol D'Souza",
+    "Student Email": "aaroldsouza19@gmail.com",
+    "Institution": "Don Bosco Institute of Technology - Mumbai",
+    "Enrolment Date & Time": "Sun Sep 24 2023 21:12:19 GMT+0530 (GMT+05:30)",
+    "Enrolment Status": "All Good",
+    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/28674758-2825-4a1a-b604-2331adb761ad",
+    "# of Courses Completed": 3,
+    "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
     "Redemption Status": "Yes"
@@ -116,19 +129,7 @@
     "Total Completions of both Pathways": "No",
     "Redemption Status": "No"
   },
-  {
-    "Student Name": "Alston Fernandes",
-    "Student Email": "0508alstonfernandes@gmail.com",
-    "Institution": "Don Bosco Institute of Technology - Mumbai",
-    "Enrolment Date & Time": "Tue Sep 26 2023 19:48:05 GMT+0530 (GMT+05:30)",
-    "Enrolment Status": "All Good",
-    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/f4fb7ad6-0b2c-4328-bd32-b3f6853aaf3c",
-    "# of Courses Completed": 4,
-    "# of Skill Badges Completed": 4,
-    "# of GenAI Game Completed": 0,
-    "Total Completions of both Pathways": "No",
-    "Redemption Status": "Yes"
-  },
+  
   {
     "Student Name": "Amey Pilankar",
     "Student Email": "pilankaramey01@gmail.com",
@@ -227,7 +228,7 @@
     "Enrolment Date & Time": "Tue Sep 26 2023 19:42:44 GMT+0530 (GMT+05:30)",
     "Enrolment Status": "All Good",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/d9a53466-6c75-4a81-8e2b-e9fd40210515",
-    "# of Courses Completed": 0,
+    "# of Courses Completed": 1,
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
@@ -296,7 +297,7 @@
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
-    "Redemption Status": "No"
+    "Redemption Status": "Yes"
   },
   {
     "Student Name": "Aryaan Sawant",
@@ -335,7 +336,7 @@
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
-    "Redemption Status": "No"
+    "Redemption Status": "Yes"
   },
   {
     "Student Name": "Avadhoot pawaskar",
@@ -500,7 +501,7 @@
     "Enrolment Date & Time": "Sun Sep 24 2023 23:07:03 GMT+0530 (GMT+05:30)",
     "Enrolment Status": "All Good",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/3808123d-0609-4e37-868a-67db2adbce43",
-    "# of Courses Completed": 1,
+    "# of Courses Completed": 2,
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
@@ -526,7 +527,7 @@
     "Enrolment Date & Time": "Sun Sep 24 2023 21:58:57 GMT+0530 (GMT+05:30)",
     "Enrolment Status": "All Good",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/0b8e89f0-5e92-4539-9a7d-0da760a4952a",
-    "# of Courses Completed": 0,
+    "# of Courses Completed": 1,
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
@@ -625,19 +626,6 @@
     "Redemption Status": "Yes"
   },
   {
-    "Student Name": "Hassan Khan",
-    "Student Email": "322hassan0059@gmail.com",
-    "Institution": "Don Bosco Institute of Technology - Mumbai",
-    "Enrolment Date & Time": "Tue Sep 26 2023 19:42:13 GMT+0530 (GMT+05:30)",
-    "Enrolment Status": "All Good",
-    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/5059c2e7-a734-4ddf-91d4-d8a213e02fcc",
-    "# of Courses Completed": 0,
-    "# of Skill Badges Completed": 0,
-    "# of GenAI Game Completed": 0,
-    "Total Completions of both Pathways": "No",
-    "Redemption Status": "No"
-  },
-  {
     "Student Name": "Hrishikesh Panigrahi",
     "Student Email": "hrishikesh.panigrahi38@gmail.com",
     "Institution": "Don Bosco Institute of Technology - Mumbai",
@@ -726,7 +714,7 @@
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
-    "Redemption Status": "No"
+    "Redemption Status": "Yes"
   },
   {
     "Student Name": "Joseph Anthony",
@@ -739,7 +727,7 @@
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
-    "Redemption Status": "No"
+    "Redemption Status": "Yes"
   },
   {
     "Student Name": "Joshua Adrian Bara",
@@ -891,24 +879,11 @@
     "Enrolment Date & Time": "Tue Sep 26 2023 19:50:22 GMT+0530 (GMT+05:30)",
     "Enrolment Status": "All Good",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/f8f12b03-8bc3-4ea0-b5aa-0516ec2ec465",
-    "# of Courses Completed": 1,
+    "# of Courses Completed": 3,
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
     "Redemption Status": "Yes"
-  },
-  {
-    "Student Name": "Leander Alexander Braganza",
-    "Student Email": "leanderbragnza@gmail.com",
-    "Institution": "Don Bosco Institute of Technology - Mumbai",
-    "Enrolment Date & Time": "Sun Sep 24 2023 22:10:43 GMT+0530 (GMT+05:30)",
-    "Enrolment Status": "All Good",
-    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/632b094d-4504-46cf-aee1-4a3e9ae90959",
-    "# of Courses Completed": 0,
-    "# of Skill Badges Completed": 0,
-    "# of GenAI Game Completed": 0,
-    "Total Completions of both Pathways": "No",
-    "Redemption Status": "No"
   },
   {
     "Student Name": "lila patel",
@@ -1009,7 +984,7 @@
     "Enrolment Status": "All Good",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/0928175f-ff7f-4fd3-939f-abdaa01744af",
     "# of Courses Completed": 4,
-    "# of Skill Badges Completed": 0,
+    "# of Skill Badges Completed": 4,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
     "Redemption Status": "Yes"
@@ -1021,7 +996,7 @@
     "Enrolment Date & Time": "Sun Sep 24 2023 22:03:55 GMT+0530 (GMT+05:30)",
     "Enrolment Status": "All Good",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/34751682-27ae-42f3-bce4-d1b530fe5ac6",
-    "# of Courses Completed": 2,
+    "# of Courses Completed": 3,
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
@@ -1152,7 +1127,7 @@
     "Enrolment Status": "All Good",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/b1048484-6ed5-43cd-bb8b-367bd187598d",
     "# of Courses Completed": 2,
-    "# of Skill Badges Completed": 0,
+    "# of Skill Badges Completed": 1,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
     "Redemption Status": "Yes"
@@ -1170,7 +1145,7 @@
     "Total Completions of both Pathways": "No",
     "Redemption Status": "Yes"
   },
- 
+  
   {
     "Student Name": "Omesh Barhate",
     "Student Email": "barhateomesh@gmail.com",
@@ -1234,7 +1209,7 @@
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
-    "Redemption Status": "No"
+    "Redemption Status": "Yes"
   },
   {
     "Student Name": "Prasad Anil Alai",
@@ -1347,7 +1322,7 @@
     "Enrolment Date & Time": "Tue Sep 26 2023 22:43:26 GMT+0530 (GMT+05:30)",
     "Enrolment Status": "All Good",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/7dc71dfe-a5d5-40ee-9384-f42002985b23",
-    "# of Courses Completed": 0,
+    "# of Courses Completed": 3,
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
@@ -1542,7 +1517,7 @@
     "Enrolment Date & Time": "Sun Sep 24 2023 22:45:40 GMT+0530 (GMT+05:30)",
     "Enrolment Status": "All Good",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/1f6ad110-8646-4092-8a1c-8a2ac9aa2a31",
-    "# of Courses Completed": 0,
+    "# of Courses Completed": 1,
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
@@ -1569,7 +1544,7 @@
     "Enrolment Status": "All Good",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/af7d32cd-367e-4ec1-a0be-b43b52473c88",
     "# of Courses Completed": 1,
-    "# of Skill Badges Completed": 0,
+    "# of Skill Badges Completed": 1,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
     "Redemption Status": "Yes"
@@ -1835,32 +1810,6 @@
     "Redemption Status": "Yes"
   },
   {
-    "Student Name": "Vidhi Bafna",
-    "Student Email": "vidhiGDSCKJSITcloud@gmail.com",
-    "Institution": "Don Bosco Institute of Technology - Mumbai",
-    "Enrolment Date & Time": "Tue Sep 26 2023 23:11:58 GMT+0530 (GMT+05:30)",
-    "Enrolment Status": "All Good",
-    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/fa249cb8-f1d8-4aed-bf4d-fdc2ddf4016e",
-    "# of Courses Completed": 0,
-    "# of Skill Badges Completed": 0,
-    "# of GenAI Game Completed": 0,
-    "Total Completions of both Pathways": "No",
-    "Redemption Status": "No"
-  },
-  {
-    "Student Name": "Vinil Jaydeep Jain",
-    "Student Email": "viniljainGDSCKSJITcloud@gmail.com",
-    "Institution": "Don Bosco Institute of Technology - Mumbai",
-    "Enrolment Date & Time": "Tue Sep 26 2023 23:26:08 GMT+0530 (GMT+05:30)",
-    "Enrolment Status": "All Good",
-    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/79e36a1d-43b8-44fa-a062-fa835af0ce40",
-    "# of Courses Completed": 0,
-    "# of Skill Badges Completed": 0,
-    "# of GenAI Game Completed": 0,
-    "Total Completions of both Pathways": "No",
-    "Redemption Status": "No"
-  },
-  {
     "Student Name": "Viola Noronha",
     "Student Email": "violanoronha9@gmail.com",
     "Institution": "Don Bosco Institute of Technology - Mumbai",
@@ -1899,7 +1848,7 @@
     "Total Completions of both Pathways": "No",
     "Redemption Status": "Yes"
   },
- 
+  
   {
     "Student Name": "Yogini Kishor Wani",
     "Student Email": "yoginiwani2626@gmail.com",

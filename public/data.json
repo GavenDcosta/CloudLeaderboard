@@ -39,6 +39,19 @@
     "Redemption Status": "Yes"
   },
   {
+    "Student Name": "Jess John",
+    "Student Email": "jessjohn6289@gmail.com",
+    "Institution": "Don Bosco Institute of Technology - Mumbai",
+    "Enrolment Date & Time": "Tue Sep 26 2023 19:50:39 GMT+0530 (GMT+05:30)",
+    "Enrolment Status": "All Good",
+    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/612ef5a0-a734-4545-babc-3ff13682995e",
+    "# of Courses Completed": 4,
+    "# of Skill Badges Completed": 4,
+    "# of GenAI Game Completed": 1,
+    "Total Completions of both Pathways": "Yes",
+    "Redemption Status": "Yes"
+  },
+  {
     "Student Name": "Abdullah Ali",
     "Student Email": "aabdullah212a@gmail.com",
     "Institution": "Don Bosco Institute of Technology - Mumbai",
@@ -571,7 +584,7 @@
     "Total Completions of both Pathways": "No",
     "Redemption Status": "Yes"
   },
-  
+
   {
     "Student Name": "Gavin Pereira",
     "Student Email": "gavinpereira2901@gmail.com",
@@ -676,19 +689,7 @@
     "Total Completions of both Pathways": "No",
     "Redemption Status": "No"
   },
-  {
-    "Student Name": "Jess John",
-    "Student Email": "jessjohn6289@gmail.com",
-    "Institution": "Don Bosco Institute of Technology - Mumbai",
-    "Enrolment Date & Time": "Tue Sep 26 2023 19:50:39 GMT+0530 (GMT+05:30)",
-    "Enrolment Status": "All Good",
-    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/612ef5a0-a734-4545-babc-3ff13682995e",
-    "# of Courses Completed": 4,
-    "# of Skill Badges Completed": 4,
-    "# of GenAI Game Completed": 1,
-    "Total Completions of both Pathways": "Yes",
-    "Redemption Status": "Yes"
-  },
+  
   {
     "Student Name": "JIYA CHAUDHARI",
     "Student Email": "jiyachaudhari0703@gmail.com",
@@ -776,8 +777,8 @@
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/92d48d60-4018-4a7f-9009-481882c4005b",
     "# of Courses Completed": 4,
     "# of Skill Badges Completed": 4,
-    "# of GenAI Game Completed": 0,
-    "Total Completions of both Pathways": "No",
+    "# of GenAI Game Completed": 1,
+    "Total Completions of both Pathways": "Yes",
     "Redemption Status": "Yes"
   },
   {
@@ -988,7 +989,7 @@
     "Total Completions of both Pathways": "Yes",
     "Redemption Status": "Yes"
   },
-  
+ 
   {
     "Student Name": "Mitali Mihir Rananavare",
     "Student Email": "rananavaremitali310@gmail.com",
@@ -1166,9 +1167,9 @@
     "Enrolment Status": "All Good",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/8ff892bb-ec91-46a8-9b79-adc729f79a96",
     "# of Courses Completed": 4,
-    "# of Skill Badges Completed": 1,
+    "# of Skill Badges Completed": 4,
     "# of GenAI Game Completed": 1,
-    "Total Completions of both Pathways": "No",
+    "Total Completions of both Pathways": "Yes",
     "Redemption Status": "Yes"
   },
   {
@@ -1620,8 +1621,8 @@
     "Enrolment Date & Time": "Wed Sep 27 2023 12:01:22 GMT+0530 (GMT+05:30)",
     "Enrolment Status": "All Good",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/8b5716b8-d0b8-44d7-8c72-face32f239e0",
-    "# of Courses Completed": 3,
-    "# of Skill Badges Completed": 3,
+    "# of Courses Completed": 4,
+    "# of Skill Badges Completed": 4,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",
     "Redemption Status": "Yes"
@@ -1724,7 +1725,7 @@
     "Enrolment Date & Time": "Sat Sep 23 2023 19:11:20 GMT+0530 (GMT+05:30)",
     "Enrolment Status": "All Good",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/ef3798fc-a573-45b9-99d4-9cd641509f18",
-    "# of Courses Completed": 0,
+    "# of Courses Completed": 1,
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 0,
     "Total Completions of both Pathways": "No",

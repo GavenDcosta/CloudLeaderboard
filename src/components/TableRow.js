@@ -64,7 +64,10 @@ function TableRow({ participant }) {
                 {participant["# of Skill Badges Completed"]}
             </td>
 
-            <td className="GenAI_Game_Completed  p-3 text-center">
+            <td className={`GenAI_Game_Completed  p-3 text-center  ${participant["# of GenAI Game Completed"] == 1 
+                ? "bg-blue-200 text-blue-600"
+                : "bg-yellow-200 text-yellow-600"
+            }`}>
                 {participant["# of GenAI Game Completed"]}
             </td>
 

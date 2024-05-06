@@ -24,7 +24,7 @@ console.log(data)
   const calculateTotalCompletions = () => {
     let total = 0;
     data.forEach((ele) => {
-      ele["Total Completions of both Pathways"] == "Yes" && total++;
+      ele["All3PathwaysCompleted-YesorNo"] == "Yes" && total++;
     })
     setCompletions(total)
   }
@@ -32,7 +32,7 @@ console.log(data)
   const searchname = (name) => {
     const newArr = [];
     for (let i = 0; i < data.length; i++) {
-      let participant = data[i]["Student Name"].toLowerCase();
+      let participant = data[i]["UserName"].toLowerCase();
       let match = participant.includes(name.toLowerCase());
       if (match) newArr.push(data[i]);
 
@@ -64,7 +64,7 @@ console.log(data)
         <div className="info flex mob:flex-col mob:justify-center mob:items-center mob:space-y-10 mob:p-5 justify-evenly space-x-3 mob:space-x-0">
           <div className="eligibleforswag w-fit mob:w-full h-20 p-5 space-x-5 rounded-lg flex flex-row justify-evenly mob:justify-between items-center bg-red-50 shadow-lg shadow-red-300/30 border border-red-200">
             <p className="text-center mob:text-start text-sm text-red-400">No of Participants <br /> Eligible for Goodies</p>
-            <p className="no text-2xl border-l-2 border-l-red-700 pl-3 text-red-800">80</p>
+            <p className="no text-2xl border-l-2 border-l-red-700 pl-3 text-red-800">{completions}</p>
           </div>
           <div className="eligibleforswag w-fit mob:w-full h-20 p-5 space-x-5 rounded-lg flex flex-row justify-evenly mob:justify-between items-center bg-green-50 shadow-lg shadow-green-300/30 border border-green-200">
             <p className="text-center mob:text-start text-sm text-green-400">Total No of <br /> Completions</p>
@@ -95,10 +95,10 @@ console.log(data)
             {/* <td className="p-2 border-r-2 border-r-gray-300">Email</td> */}
             <td className="p-2 border-r-2 border-r-gray-300">Redemption Status</td>
             <td className=" p-2 px-10 border-r-2 border-r-gray-300">Institution</td>
-            <td className="mob:rounded-se-lg p-2 border-r-2 border-r-gray-300 max-w-[150px]">Completions of both Pathways</td>
-            <td className=" p-2 border-r-2 border-r-gray-300 max-w-[150px]">No Courses Completed</td>
-            <td className=" p-2 border-r-2 border-r-gray-300 max-w-[150px]">No Skill Badges Completed</td>
-            <td className=" rounded-se-lg p-2 max-w-[150px]">GenAI Game Completed</td>
+            <td className="mob:rounded-se-lg p-2 border-r-2 border-r-gray-300 max-w-[150px]">Completions of All Pathways</td>
+            <td className=" p-2 border-r-2 border-r-gray-300 max-w-[150px]">Path 1</td>
+            <td className=" p-2 border-r-2 border-r-gray-300 max-w-[150px]">Path 2</td>
+            <td className=" rounded-se-lg p-2 max-w-[150px]">Path 3</td>
             {/* <td className="p-2 border-r-2 border-r-gray-300">Enroll Date & Time</td> */}
             {/* <td className="p-2 border-r-2 border-r-gray-300">Enroll. Status</td> */}
             {/* <td className='p-2 border-r-2 border-r-gray-300'>Profile URL</td> */}

@@ -7,7 +7,7 @@ export default function Home() {
   
   return (
     <>
-      <Script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js" strategy="beforeInteractive"></Script>
+      {/* <Script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js" strategy="beforeInteractive"></Script>
       <Script id="blast_effect">
         {
                 `const duration = 15 * 350,
@@ -47,12 +47,12 @@ export default function Home() {
               }, 250);
                 `
         }
-      </Script>
+      </Script> */}
       <nav className='w-full  shadow-md relative '>
         <div className="bg-gray-900 text-blue-500 w-full m-auto text-center p-2 flex justify-center items-center">
           <div className=""><Image src="/assets/cloudLg.png" alt="me" width="40" height="40" /></div>
           <p className=''>
-            Google Cloud STUDY JAMS 23 - 24
+            Google GenAI STUDY JAMS
           </p>
         </div>
 
@@ -84,9 +84,9 @@ export default function Home() {
           </div>
         </div>
       </nav>
-      <div className="m-auto w-fit mt-10">
+      {/* <div className="m-auto w-fit mt-10">
         <Link href="/profilebadge" className='px-3 py-2 bg-blue-500 text-white'>Create Badge</Link>
-      </div>
+      </div> */}
 
       {/* <div className="bg-gray-100 min-h-screen">
       <BadgeComponent    />

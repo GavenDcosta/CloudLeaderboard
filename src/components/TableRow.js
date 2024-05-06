@@ -4,71 +4,64 @@ function TableRow({ participant }) {
     // console.log(participant)
     return (
         <tr className=" border border-b-slate-200 odd:bg-white even:bg-gray-50">
-            <td className="Student_Name p-3 uppercase">{participant["Student Name"]}
-            {participant["Total Completions of both Pathways"] == "Yes"?'🏅':''}
+            <td className="Student_Name p-3 uppercase">{participant["UserName"]}
+            {participant["All3PathwaysCompleted-YesorNo"] == "Yes"?'🏅':''}
             </td>
 
             {/* <td className="Student_Email p-3">{participant["Student Email"]}</td> */}
 
             <td className="Redemption_Status p-3 relative">
                 <div
-                    className={`w-fit m-auto rounded-3xl px-4 py-1 text-center ${participant["Redemption Status"] == "Yes"
+                    className={`w-fit m-auto rounded-3xl px-4 py-1 text-center ${participant["CampaignCodeRedemptionStatus"] == "Yes"
                         ? "bg-green-200 text-green-600"
                         : "bg-yellow-200 text-yellow-600"
                         }`}
                 >
-                    {participant["Redemption Status"] == "Yes" ? "Done" : "Error !"}
+                    {participant["CampaignCodeRedemptionStatus"] == "Yes" ? "Done" : "No !"}
                 </div>
             </td>
 
             <td className="Institution  relative p-3">
                 <div
-                    className={`m-auto w-fit rounded-3xl px-2 py-1 text-center ${participant["Institution"] ==
-                        "Don Bosco Institute of Technology - Mumbai"
-                        ? "bg-green-200 text-green-600"
-                        : "bg-yellow-200 text-yellow-600"
-                        }`}
+                    className={`m-auto w-fit rounded-3xl px-2 py-1 text-center bg-green-200 text-green-600}`}
                 >
-                    {participant["Institution"] ==
-                        "Don Bosco Institute of Technology - Mumbai"
-                        ? "DBIT"
-                        : "Other"}
+                    DBIT
                 </div>
             </td>
 
 
             <td className="Completions_both_Pathways_relative p-3 text-center">
                 <div
-                    className={`m-auto w-fit rounded-3xl px-5 py-1 text-center ${participant["Total Completions of both Pathways"] == "Yes"
+                    className={`m-auto w-fit rounded-3xl px-5 py-1 text-center ${participant["All3PathwaysCompleted-YesorNo"] == "Yes"
                         ? "bg-green-200 text-green-600"
                         : "bg-yellow-200 text-yellow-600"
                         }`}
                 >
-                    {participant["Total Completions of both Pathways"] == "Yes"
+                    {participant["All3PathwaysCompleted-YesorNo"] == "Yes"
                         ? "Yes"
                         : "No !"}
                 </div>
             </td>
 
-            <td className={`no_Courses_Completed  p-3 text-center ${participant["# of Courses Completed"] == 4 
+            <td className={`no_Courses_Completed  p-3 text-center ${participant["PromptDesigninVertexAICompletion"] == 1 
                 ? "bg-green-200 text-green-600"
                 : "bg-yellow-200 text-yellow-600"
             }`}>
-                {participant["# of Courses Completed"]}
+                {participant["PromptDesigninVertexAICompletion"]}
             </td>
 
-            <td className={`no_Skill_Badges_Completed  p-3 text-center" ${participant["# of Skill Badges Completed"] == 4 
+            <td className={`no_Skill_Badges_Completed  p-3 text-center" ${participant["DevelopGenAIAppswithGeminiandStreamlitCompletion"] == 1 
                 ? "bg-green-200 text-green-600"
                 : "bg-yellow-200 text-yellow-600"
             }`}>
-                {participant["# of Skill Badges Completed"]}
+                {participant["DevelopGenAIAppswithGeminiandStreamlitCompletion"]}
             </td>
 
-            <td className={`GenAI_Game_Completed  p-3 text-center  ${participant["# of GenAI Game Completed"] == 1 
+            <td className={`GenAI_Game_Completed  p-3 text-center  ${participant["GenAIArcadeGameCompletion"] == 1 
                 ? "bg-blue-200 text-blue-600"
                 : "bg-yellow-200 text-yellow-600"
             }`}>
-                {participant["# of GenAI Game Completed"]}
+                {participant["GenAIArcadeGameCompletion"]}
             </td>
 
 

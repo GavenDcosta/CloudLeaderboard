@@ -10,7 +10,7 @@ function TableRow({ participant }) {
 
             {/* <td className="Student_Email p-3">{participant["Student Email"]}</td> */}
 
-            <td className="Redemption_Status p-3 relative">
+            {/* <td className="Redemption_Status p-3 relative">
                 <div
                     className={`w-fit m-auto rounded-3xl px-4 py-1 text-center ${participant["CampaignCodeRedemptionStatus"] == "Yes"
                         ? "bg-green-200 text-green-600"
@@ -19,7 +19,7 @@ function TableRow({ participant }) {
                 >
                     {participant["CampaignCodeRedemptionStatus"] == "Yes" ? "Done" : "No !"}
                 </div>
-            </td>
+            </td> */}
 
             <td className="Institution  relative p-3">
                 <div

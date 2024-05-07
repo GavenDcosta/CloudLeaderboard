@@ -11,10 +11,31 @@ function TableIndex() {
 
   // Sort the array based on the sum of courses completed and badges completed
   data.sort(function(a, b) {
-    const sumA = a["# of Courses Completed"] + a["# of Skill Badges Completed"] + a["# of GenAI Game Completed"];
-    const sumB = b["# of Courses Completed"] + b["# of Skill Badges Completed"] + b["# of GenAI Game Completed"];
-    return sumB - sumA;
+    // First, compare completions of all three pathways
+    const allPathsCompletedA = a["All3PathwaysCompleted-YesorNo"] === "Yes";
+    const allPathsCompletedB = b["All3PathwaysCompleted-YesorNo"] === "Yes";
+    
+    // If both have completed all three paths or both have not completed, compare alphabetically by username
+    if (allPathsCompletedA === allPathsCompletedB) {
+      // If all paths are completed, sort alphabetically by username
+      if (allPathsCompletedA) {
+        return a.UserName.localeCompare(b.UserName);
+      } else { // If all paths are not completed, sort by the number of paths completed
+        const sumA = parseInt(a["PromptDesigninVertexAICompletion"]) +
+                    parseInt(a["DevelopGenAIAppswithGeminiandStreamlitCompletion"]) +
+                    parseInt(a["GenAIArcadeGameCompletion"]);
+        
+        const sumB = parseInt(b["PromptDesigninVertexAICompletion"]) +
+                    parseInt(b["DevelopGenAIAppswithGeminiandStreamlitCompletion"]) +
+                    parseInt(b["GenAIArcadeGameCompletion"]);
+  
+        return sumB - sumA;
+      }
+    } else { // If one has completed all paths and the other hasn't, prioritize the one with all paths completed
+      return allPathsCompletedB - allPathsCompletedA;
+    }
   });
+  
 
   const [Participationdata, setParticipationdata] = useState([...data]);
   const [completions, setCompletions] = useState(0);

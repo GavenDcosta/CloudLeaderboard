@@ -22,11 +22,11 @@ function TableIndex() {
         return a["User Name"].localeCompare(b["User Name"]);
       } else { // If all paths are not completed, sort by the number of paths completed
         const sumA = parseInt(a["Prompt Design in Vertex AI Completion"]) +
-                    parseInt(a["Develop Gen AI Apps with Gemini and Streamlit Completion"]) +
+                    parseInt(a["Develop GenAI Apps with Gemini and Streamlit Completion"]) +
                     parseInt(a["Gen AI Arcade Game Completion"]);
         
         const sumB = parseInt(b["Prompt Design in Vertex AI Completion"]) +
-                    parseInt(b["Develop Gen AI Apps with Gemini and Streamlit Completion"]) +
+                    parseInt(b["Develop GenAI Apps with Gemini and Streamlit Completion"]) +
                     parseInt(b["Gen AI Arcade Game Completion"]);
   
         return sumB - sumA;
@@ -35,6 +35,10 @@ function TableIndex() {
       return allPathsCompletedB - allPathsCompletedA;
     }
   });
+
+
+
+
 
   const [Participationdata, setParticipationdata] = useState([...data]);
   const [completions, setCompletions] = useState(0);

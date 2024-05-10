@@ -43,18 +43,18 @@ function TableRow({ participant }) {
                 </div>
             </td>
 
-            <td className={`no_Courses_Completed  p-3 text-center ${participant["Prompt Designin Vertex AI Completion"] == 1 
+            <td className={`no_Courses_Completed  p-3 text-center ${participant["Prompt Design in Vertex AI Completion"] == 1 
                 ? "bg-green-200 text-green-600"
                 : "bg-yellow-200 text-yellow-600"
             }`}>
-                {participant["Prompt Designin Vertex AI Completion"]}
+                {participant["Prompt Design in Vertex AI Completion"]}
             </td>
 
-            <td className={`no_Skill_Badges_Completed  p-3 text-center" ${participant["Develop Gen AI Apps with Gemini and Streamlit Completion"] == 1 
+            <td className={`no_Skill_Badges_Completed  p-3 text-center" ${participant["Develop GenAI Apps with Gemini and Streamlit Completion"] == 1 
                 ? "bg-green-200 text-green-600"
                 : "bg-yellow-200 text-yellow-600"
             }`}>
-                {participant["Develop Gen AI Apps with Gemini and Streamlit Completion"]}
+                {participant["Develop GenAI Apps with Gemini and Streamlit Completion"]}
             </td>
 
             <td className={`GenAI_Game_Completed  p-3 text-center  ${participant["Gen AI Arcade Game Completion"] == 1 

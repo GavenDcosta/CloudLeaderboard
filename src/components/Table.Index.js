@@ -52,7 +52,7 @@ console.log(data)
   const searchname = (name) => {
     const newArr = [];
     for (let i = 0; i < data.length; i++) {
-      let participant = data[i]["UserName"].toLowerCase();
+      let participant = data[i]["User Name"].toLowerCase();
       let match = participant.includes(name.toLowerCase());
       if (match) newArr.push(data[i]);
 

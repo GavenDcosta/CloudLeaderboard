@@ -12,22 +12,22 @@ function TableIndex() {
   // Sort the array based on the sum of courses completed and badges completed
   data.sort(function(a, b) {
     // First, compare completions of all three pathways
-    const allPathsCompletedA = a["All3PathwaysCompleted-YesorNo"] === "Yes";
-    const allPathsCompletedB = b["All3PathwaysCompleted-YesorNo"] === "Yes";
+    const allPathsCompletedA = a["All 3 Pathways Completed - Yes or No"] === "Yes";
+    const allPathsCompletedB = b["All 3 Pathways Completed - Yes or No"] === "Yes";
     
     // If both have completed all three paths or both have not completed, compare alphabetically by username
     if (allPathsCompletedA === allPathsCompletedB) {
       // If all paths are completed, sort alphabetically by username
       if (allPathsCompletedA) {
-        return a.UserName.localeCompare(b.UserName);
+        return a["User Name"].localeCompare(b["User Name"]);
       } else { // If all paths are not completed, sort by the number of paths completed
-        const sumA = parseInt(a["PromptDesigninVertexAICompletion"]) +
-                    parseInt(a["DevelopGenAIAppswithGeminiandStreamlitCompletion"]) +
-                    parseInt(a["GenAIArcadeGameCompletion"]);
+        const sumA = parseInt(a["Prompt Design in Vertex AI Completion"]) +
+                    parseInt(a["Develop Gen AI Apps with Gemini and Streamlit Completion"]) +
+                    parseInt(a["Gen AI Arcade Game Completion"]);
         
-        const sumB = parseInt(b["PromptDesigninVertexAICompletion"]) +
-                    parseInt(b["DevelopGenAIAppswithGeminiandStreamlitCompletion"]) +
-                    parseInt(b["GenAIArcadeGameCompletion"]);
+        const sumB = parseInt(b["Prompt Design in Vertex AI Completion"]) +
+                    parseInt(b["Develop Gen AI Apps with Gemini and Streamlit Completion"]) +
+                    parseInt(b["Gen AI Arcade Game Completion"]);
   
         return sumB - sumA;
       }
@@ -35,7 +35,6 @@ function TableIndex() {
       return allPathsCompletedB - allPathsCompletedA;
     }
   });
-  
 
   const [Participationdata, setParticipationdata] = useState([...data]);
   const [completions, setCompletions] = useState(0);
@@ -45,7 +44,7 @@ console.log(data)
   const calculateTotalCompletions = () => {
     let total = 0;
     data.forEach((ele) => {
-      ele["All3PathwaysCompleted-YesorNo"] == "Yes" && total++;
+      ele["All 3 Pathways Completed - Yes or No"] == "Yes" && total++;
     })
     setCompletions(total)
   }

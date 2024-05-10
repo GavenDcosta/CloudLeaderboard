@@ -4,8 +4,8 @@ function TableRow({ participant }) {
     // console.log(participant)
     return (
         <tr className=" border border-b-slate-200 odd:bg-white even:bg-gray-50">
-            <td className="Student_Name p-3 uppercase">{participant["UserName"]}
-            {participant["All3PathwaysCompleted-YesorNo"] == "Yes"?'🏅':''}
+            <td className="Student_Name p-3 uppercase">{participant["User Name"]}
+            {participant["All 3 Pathways Completed - Yes or No"] == "Yes"?'🏅':''}
             </td>
 
             {/* <td className="Student_Email p-3">{participant["Student Email"]}</td> */}
@@ -32,36 +32,36 @@ function TableRow({ participant }) {
 
             <td className="Completions_both_Pathways_relative p-3 text-center">
                 <div
-                    className={`m-auto w-fit rounded-3xl px-5 py-1 text-center ${participant["All3PathwaysCompleted-YesorNo"] == "Yes"
+                    className={`m-auto w-fit rounded-3xl px-5 py-1 text-center ${participant["All 3 Pathways Completed - Yes or No"] == "Yes"
                         ? "bg-green-200 text-green-600"
                         : "bg-yellow-200 text-yellow-600"
                         }`}
                 >
-                    {participant["All3PathwaysCompleted-YesorNo"] == "Yes"
+                    {participant["All 3 Pathways Completed - Yes or No"] == "Yes"
                         ? "Yes"
                         : "No !"}
                 </div>
             </td>
 
-            <td className={`no_Courses_Completed  p-3 text-center ${participant["PromptDesigninVertexAICompletion"] == 1 
+            <td className={`no_Courses_Completed  p-3 text-center ${participant["Prompt Designin Vertex AI Completion"] == 1 
                 ? "bg-green-200 text-green-600"
                 : "bg-yellow-200 text-yellow-600"
             }`}>
-                {participant["PromptDesigninVertexAICompletion"]}
+                {participant["Prompt Designin Vertex AI Completion"]}
             </td>
 
-            <td className={`no_Skill_Badges_Completed  p-3 text-center" ${participant["DevelopGenAIAppswithGeminiandStreamlitCompletion"] == 1 
+            <td className={`no_Skill_Badges_Completed  p-3 text-center" ${participant["Develop Gen AI Apps with Gemini and Streamlit Completion"] == 1 
                 ? "bg-green-200 text-green-600"
                 : "bg-yellow-200 text-yellow-600"
             }`}>
-                {participant["DevelopGenAIAppswithGeminiandStreamlitCompletion"]}
+                {participant["Develop Gen AI Apps with Gemini and Streamlit Completion"]}
             </td>
 
-            <td className={`GenAI_Game_Completed  p-3 text-center  ${participant["GenAIArcadeGameCompletion"] == 1 
+            <td className={`GenAI_Game_Completed  p-3 text-center  ${participant["Gen AI Arcade Game Completion"] == 1 
                 ? "bg-blue-200 text-blue-600"
                 : "bg-yellow-200 text-yellow-600"
             }`}>
-                {participant["GenAIArcadeGameCompletion"]}
+                {participant["Gen AI Arcade Game Completion"]}
             </td>
 
 
